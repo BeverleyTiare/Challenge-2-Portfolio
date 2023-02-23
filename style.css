@@ -1,6 +1,6 @@
 
 
-/* Designated colors into variables */
+/* Designated colors adapted into variables */
 
 :root{
     --mainColor:#eaeaea;
@@ -25,7 +25,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/* Setting font and color for common elements */
+/* Designating font and color for common elements */
 
 .h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
@@ -161,7 +161,8 @@ html, body {
     border: 2px solid var(--borderColor);
   }
 
-/* Started to work on this, howvever using JavaScript and not skilled as yet */
+/* Following is work in progress and will be developed knowledge of JavaScript develops */
+
   /* #theme-option-wrapper{
       display: flex;
       justify-content: center;
@@ -178,38 +179,37 @@ html, body {
 	  border:2px solid var(--themeDotBorder);
 
 	  cursor: pointer;
-}
+    }
 
 
-
-.theme-dot:hover{
+    .theme-dot:hover{
       border-width: 5px;
-}
+    }
 
   
-#light-mode{
+        #light-mode{
     background-color: #fff;
-}
+    }
 
-#blue-mode{
+        #blue-mode{
     background-color:#192734 ;
-}
+    }
 
-#green-mode{
+    #green-mode{
     background-color: #78866b;
-}
+    }
 
-#purple-mode{
+    #purple-mode{
       background-color: #6f6b86;
-  }
+    }
   
  #settings-note{
       font-size: 12px;
       font-style: italic;
       text-align: center;
- } */
+    } */
 
-.right-column{
+    .right-column{
       grid-area: right-column;
       display: grid;
       align-content:center; 
@@ -217,7 +217,7 @@ html, body {
       padding-bottom: 50px;
   }
 
-  #preview{
+    #preview{
       width: 300px;
       border: 1.5 solid #17a2b8;
       background-color: var(--previewBg);
@@ -225,7 +225,7 @@ html, body {
       position: relative;
 }
 
-  .corner{
+    .corner{
       width: 7px;
       height: 7px;
       border-radius: 50%;
@@ -234,30 +234,30 @@ html, body {
       position: relative;
 }
 
- #corner -tl{
+    #corner -tl{
       top:-5px;
       left:-5px;
  }
  
 
-  #corner -tr{
+    #corner -tr{
       top:-5px;
       right:-5px;
   }
   
 
-  #corner -bl{
+    #corner -bl{
       bottom:-5px;
       left:-5px;
   }
   
 
-  #corner -br{
+    #corner -br{
       bottom:-5px;
       right:-5px;
   }
 
-/* Following are Future Dircetion Styles */
+/* Following are Future Direction Styles */
 .about-wrapper{
       display: grid;
       grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)) ;
@@ -355,7 +355,7 @@ html, body {
 }
 
 
-/* Applying responsive styles to viewports */
+/* Applied responsive styles to viewports */
 
 @media screen and (max-width: 1200px){
 	.main-container{
