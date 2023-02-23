@@ -1,7 +1,11 @@
 # Challenge-2-Portfolio
 
 Challenge-2-Portfolio README.Doc
+
+
 This Portfolio Page is to developed across time to enable adding projects completed throughout the duration of the Bootcamp Course. The aim is to show coding skill and developmental progression. Applications will be added to current placeholder images/names as created.
+
+
 ##Learning Objectives
 
 To understand applied HTML to structure the application and CSS to develop stylist skills and design.
@@ -29,7 +33,8 @@ To develop responsive features within the application to adapt to differing view
 width: 95%;
 }
 
-Installation
+##Installation
+
 Code Source and location within Repository:
 https://github.com/BeverleyTiare/Challenge-2-Portfolio
 Clone the above link from GitHUb by pasting the link into your terminal.
@@ -37,6 +42,8 @@ Clone the above link from GitHUb by pasting the link into your terminal.
 URL Link to deployed application:
 
 https://beverleytiare.github.io/Challenge-2-Portfolio/
+
+
 ##License
 
 MIT License
