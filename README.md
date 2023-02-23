@@ -12,26 +12,26 @@ To understand applied HTML to structure the application and CSS to develop styli
 
 Development of a web application built from scratch.
 
-To develop navigation and scrolling features to enhance application usability:
-html, body {
-padding: 0;
-margin: 0;
-scroll-behavior: smooth;
-}
-</a>
+To develop navigation / scrolling features to enhance application usability:
+``</a>
 
-   <ul id="navigation">
-       <li><a href="index.html#contact">CONTACT</a></li>
-       <li><a href="#Portfolio">Portfolio</a></li>
-   </ul> 
-</div>
+<ul  id="navigation">
+
+<li><a  href="index.html#contact">CONTACT</a></li>
+
+<li><a  href="#Portfolio">Portfolio</a></li>
+
+</ul>``
 
 To develop responsive features within the application to adapt to differing viewports:
 
-@media screen and (max-width: 1200px){
+``@media screen and (max-width: 1200px){
+
 .main-container{
+
 width: 95%;
-}
+
+} ``
 
 ##Installation
 
